@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6322"
-	"mapversion" "9"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -10389,7 +10389,7 @@ entity
 		"OnPass" "mspl_pushzone,CaptureCurrentCP,,0,-1"
 		"OnPass" "cp_threeB,SetOwner,3,0.1,-1"
 	}
-	"origin" "2624 2448 1532"
+	"origin" "2642 2451 1532"
 	editor
 	{
 		"color" "255 192 0"
@@ -10774,7 +10774,7 @@ entity
 	"angles" "0 0 0"
 	"orientationtype" "1"
 	"spawnflags" "0"
-	"target" "mspl_path_end"
+	"target" "mspl_path_cp_threeA6"
 	"targetname" "mspl_path_cp_threeA5"
 	"origin" "2896 1258.81 1694.11"
 	editor
@@ -10793,13 +10793,505 @@ entity
 	"angles" "0 0 0"
 	"orientationtype" "2"
 	"spawnflags" "0"
-	"target" "mspl_path_cp_threeA1"
+	"target" "mspl_path_start4"
 	"targetname" "mspl_path_start3"
 	connections
 	{
 		"OnPass" "mspl_cartsparks,StopSpark,,0,-1"
 	}
-	"origin" "2445.49 761.614 1688.94"
+	"origin" "2439 762 1721"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your fifth track section. This path's angle MUST match the direction of travel to the next path."
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "4963"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA7"
+	"targetname" "mspl_path_cp_threeA6"
+	"origin" "2896 1378 1678"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "4967"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA8"
+	"targetname" "mspl_path_cp_threeA7"
+	"origin" "2896 1558 1586"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "4983"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA9"
+	"targetname" "mspl_path_cp_threeA8"
+	"origin" "2896 1603 1541"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "4991"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA10"
+	"targetname" "mspl_path_cp_threeA9"
+	"origin" "2896 1654 1515"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5003"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA11"
+	"targetname" "mspl_path_cp_threeA10"
+	"origin" "2896 1689 1506"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5015"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA12"
+	"targetname" "mspl_path_cp_threeA11"
+	"origin" "2894 1754 1506"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5019"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA13"
+	"targetname" "mspl_path_cp_threeA12"
+	"origin" "2882 1806 1506"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5031"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA14"
+	"targetname" "mspl_path_cp_threeA13"
+	"origin" "2850 1870 1506"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5035"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA15"
+	"targetname" "mspl_path_cp_threeA14"
+	"origin" "2827 1948 1506"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5039"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA16"
+	"targetname" "mspl_path_cp_threeA15"
+	"origin" "2780 2021 1506"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5047"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA17"
+	"targetname" "mspl_path_cp_threeA16"
+	"origin" "2766 2083 1506"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5051"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA18"
+	"targetname" "mspl_path_cp_threeA17"
+	"origin" "2716 2190 1506"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5055"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA19"
+	"targetname" "mspl_path_cp_threeA18"
+	"origin" "2680 2270 1519"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5071"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA20"
+	"targetname" "mspl_path_cp_threeA19"
+	"origin" "2670 2295 1517"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5079"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"target" "mspl_path_end"
+	"targetname" "mspl_path_cp_threeA20"
+	"origin" "2668 2331 1541"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your sixth track section."
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5127"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "2"
+	"spawnflags" "0"
+	"target" "mspl_path_start5"
+	"targetname" "mspl_path_start4"
+	connections
+	{
+		"OnPass" "mspl_cartsparks,StopSpark,,0,-1"
+	}
+	"origin" "2479 773 1721"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your fifth track section. This path's angle MUST match the direction of travel to the next path."
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "5131"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "2"
+	"spawnflags" "0"
+	"target" "mspl_path_start6"
+	"targetname" "mspl_path_start5"
+	connections
+	{
+		"OnPass" "mspl_cartsparks,StopSpark,,0,-1"
+	}
+	"origin" "2614 850 1721"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your fifth track section. This path's angle MUST match the direction of travel to the next path."
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "5135"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "2"
+	"spawnflags" "0"
+	"target" "mspl_path_start7"
+	"targetname" "mspl_path_start6"
+	connections
+	{
+		"OnPass" "mspl_cartsparks,StopSpark,,0,-1"
+	}
+	"origin" "2644 861 1721"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your fifth track section. This path's angle MUST match the direction of travel to the next path."
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "5139"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "2"
+	"spawnflags" "0"
+	"target" "mspl_path_start8"
+	"targetname" "mspl_path_start7"
+	connections
+	{
+		"OnPass" "mspl_cartsparks,StopSpark,,0,-1"
+	}
+	"origin" "2679 873 1721"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your fifth track section. This path's angle MUST match the direction of travel to the next path."
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "5143"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "2"
+	"spawnflags" "0"
+	"target" "mspl_path_start9"
+	"targetname" "mspl_path_start8"
+	connections
+	{
+		"OnPass" "mspl_cartsparks,StopSpark,,0,-1"
+	}
+	"origin" "2741 903 1721"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your fifth track section. This path's angle MUST match the direction of travel to the next path."
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "5147"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "2"
+	"spawnflags" "0"
+	"target" "mspl_path_start10"
+	"targetname" "mspl_path_start9"
+	connections
+	{
+		"OnPass" "mspl_cartsparks,StopSpark,,0,-1"
+	}
+	"origin" "2804 948 1721"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your fifth track section. This path's angle MUST match the direction of travel to the next path."
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "5151"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "2"
+	"spawnflags" "0"
+	"target" "mspl_path_start11"
+	"targetname" "mspl_path_start10"
+	connections
+	{
+		"OnPass" "mspl_cartsparks,StopSpark,,0,-1"
+	}
+	"origin" "2847 990 1721"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your fifth track section. This path's angle MUST match the direction of travel to the next path."
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "5163"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "2"
+	"spawnflags" "0"
+	"target" "mspl_path_start12"
+	"targetname" "mspl_path_start11"
+	connections
+	{
+		"OnPass" "mspl_cartsparks,StopSpark,,0,-1"
+	}
+	"origin" "2875 1032 1721"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Connect this to the begining of your fifth track section. This path's angle MUST match the direction of travel to the next path."
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "5167"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "2"
+	"spawnflags" "0"
+	"target" "mspl_path_cp_threeA1"
+	"targetname" "mspl_path_start12"
+	connections
+	{
+		"OnPass" "mspl_cartsparks,StopSpark,,0,-1"
+	}
+	"origin" "2892 1074 1721"
 	editor
 	{
 		"color" "255 192 0"
