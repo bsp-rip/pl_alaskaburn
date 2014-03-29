@@ -3380,7 +3380,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[2560 1408 1280]"
+				"startposition" "[2560 1408 1203.2]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "1"
