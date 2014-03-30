@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6322"
-	"mapversion" "17"
+	"mapversion" "18"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "18"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -11146,47 +11146,9 @@ entity
 	"angles" "0 0 0"
 	"orientationtype" "0"
 	"spawnflags" "0"
-	"target" "mspl_path_cp_threeA18"
+	"target" "mspl_path_cp_threeA20"
 	"targetname" "mspl_path_cp_threeA17"
 	"origin" "2716 2190 1506"
-	editor
-	{
-		"color" "255 192 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"comments" "Connect this to the begining of your sixth track section."
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "5055"
-	"classname" "path_track"
-	"angles" "0 0 0"
-	"orientationtype" "1"
-	"spawnflags" "0"
-	"target" "mspl_path_cp_threeA19"
-	"targetname" "mspl_path_cp_threeA18"
-	"origin" "2680 2270 1522"
-	editor
-	{
-		"color" "255 192 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"comments" "Connect this to the begining of your sixth track section."
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "5071"
-	"classname" "path_track"
-	"angles" "0 0 0"
-	"orientationtype" "1"
-	"spawnflags" "0"
-	"target" "mspl_path_cp_threeA20"
-	"targetname" "mspl_path_cp_threeA19"
-	"origin" "2670 2297 1523"
 	editor
 	{
 		"color" "255 192 0"
@@ -11205,7 +11167,7 @@ entity
 	"spawnflags" "0"
 	"target" "mspl_path_end"
 	"targetname" "mspl_path_cp_threeA20"
-	"origin" "2668 2331 1541"
+	"origin" "2668 2313 1552"
 	editor
 	{
 		"color" "255 192 0"
