@@ -120,3 +120,878 @@ Level flags = 0
 Total triangle count: 662
 Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
 0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/pl_alaskaburn/nature/blendgroundtosnow001_wvt_patch
+Patching WVT material: maps/pl_alaskaburn/nature/blendrockgroundwallsnow_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (757637 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 87 texinfos to 46
+Reduced 16 texdatas to 13 (446 bytes to 282)
+Writing C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.prt
+ 207 portalclusters
+ 549 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.01%)
+Total clusters visible: 42221
+Average clusters visible: 203
+Building PAS...
+Average clusters audible: 207
+visdatasize:12429  compressed from 13248
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+555 faces
+3018505 square feet [434664736.00 square inches]
+39 Displacements
+107242 Square Feet [15442867.00 Square Inches]
+555 patches before subdivision
+16681 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 344063, max 180
+transfer lists:   2.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0076 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                 42/8192          504/98304    ( 0.5%) 
+brushsides             277/65536        2216/524288   ( 0.4%) 
+planes                 398/65536        7960/1310720  ( 0.6%) 
+vertexes               771/65536        9252/786432   ( 1.2%) 
+nodes                  610/65536       19520/2097152  ( 0.9%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos               39/0            6864/0        ( 0.0%) 
+disp_verts            3991/0           79820/0        ( 0.0%) 
+disp_tris             6528/0           13056/0        ( 0.0%) 
+disp_lmsamples      266812/0          266812/0        ( 0.0%) 
+faces                  555/65536       31080/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              192/65536       10752/3670016  ( 0.3%) 
+leaves                 624/65536       19968/2097152  ( 1.0%) 
+leaffaces              533/65536        1066/131072   ( 0.8%) 
+leafbrushes            363/65536         726/131072   ( 0.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3127/512000      12508/2048000  ( 0.6%) 
+edges                 1771/256000       7084/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             24/32768         240/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           420/65536         840/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1279668/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       12429/16777216 ( 0.1%) 
+entdata               [variable]       33010/393216   ( 8.4%) 
+LDR ambient table      624/65536        2496/262144   ( 1.0%) 
+HDR ambient table      624/65536        2496/262144   ( 1.0%) 
+LDR leaf ambient       279/65536        7812/1835008  ( 0.4%) 
+HDR leaf ambient       624/65536       17472/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1338     ( 0.1%) 
+pakfile               [variable]        1272/0        ( 0.0%) 
+physics               [variable]      757637/4194304  (18.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1249
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/pl_alaskaburn/nature/blendgroundtosnow001_wvt_patch
+Patching WVT material: maps/pl_alaskaburn/nature/blendrockgroundwallsnow_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (758405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 93 texinfos to 47
+Reduced 17 texdatas to 14 (467 bytes to 303)
+Writing C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.prt
+ 215 portalclusters
+ 591 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.01%)
+Total clusters visible: 45585
+Average clusters visible: 212
+Building PAS...
+Average clusters audible: 215
+visdatasize:13339  compressed from 13760
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+567 faces
+3023480 square feet [435381152.00 square inches]
+39 Displacements
+107242 Square Feet [15442867.00 Square Inches]
+567 patches before subdivision
+17597 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 376890, max 182
+transfer lists:   2.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0076 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                 44/8192          528/98304    ( 0.5%) 
+brushsides             291/65536        2328/524288   ( 0.4%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               805/65536        9660/786432   ( 1.2%) 
+nodes                  618/65536       19776/2097152  ( 0.9%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos               39/0            6864/0        ( 0.0%) 
+disp_verts            3991/0           79820/0        ( 0.0%) 
+disp_tris             6528/0           13056/0        ( 0.0%) 
+disp_lmsamples      266812/0          266812/0        ( 0.0%) 
+faces                  567/65536       31752/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              193/65536       10808/3670016  ( 0.3%) 
+leaves                 632/65536       20224/2097152  ( 1.0%) 
+leaffaces              552/65536        1104/131072   ( 0.8%) 
+leafbrushes            368/65536         736/131072   ( 0.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3205/512000      12820/2048000  ( 0.6%) 
+edges                 1828/256000       7312/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           489/65536         978/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1293596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13339/16777216 ( 0.1%) 
+entdata               [variable]       33010/393216   ( 8.4%) 
+LDR ambient table      632/65536        2528/262144   ( 1.0%) 
+HDR ambient table      632/65536        2528/262144   ( 1.0%) 
+LDR leaf ambient       287/65536        8036/1835008  ( 0.4%) 
+HDR leaf ambient       632/65536       17696/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1350     ( 0.1%) 
+pakfile               [variable]        1272/0        ( 0.0%) 
+physics               [variable]      758405/4194304  (18.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1299
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/pl_alaskaburn/nature/blendgroundtosnow001_wvt_patch
+Patching WVT material: maps/pl_alaskaburn/nature/blendrockgroundwallsnow_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (758405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 93 texinfos to 47
+Reduced 17 texdatas to 14 (467 bytes to 303)
+Writing C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.prt
+ 215 portalclusters
+ 591 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.01%)
+Total clusters visible: 45585
+Average clusters visible: 212
+Building PAS...
+Average clusters audible: 215
+visdatasize:13339  compressed from 13760
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+567 faces
+3023480 square feet [435381152.00 square inches]
+39 Displacements
+107242 Square Feet [15442867.00 Square Inches]
+567 patches before subdivision
+17597 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 376890, max 182
+transfer lists:   2.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0078 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                 44/8192          528/98304    ( 0.5%) 
+brushsides             291/65536        2328/524288   ( 0.4%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               805/65536        9660/786432   ( 1.2%) 
+nodes                  618/65536       19776/2097152  ( 0.9%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos               39/0            6864/0        ( 0.0%) 
+disp_verts            3991/0           79820/0        ( 0.0%) 
+disp_tris             6528/0           13056/0        ( 0.0%) 
+disp_lmsamples      266812/0          266812/0        ( 0.0%) 
+faces                  567/65536       31752/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              193/65536       10808/3670016  ( 0.3%) 
+leaves                 632/65536       20224/2097152  ( 1.0%) 
+leaffaces              552/65536        1104/131072   ( 0.8%) 
+leafbrushes            368/65536         736/131072   ( 0.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3205/512000      12820/2048000  ( 0.6%) 
+edges                 1828/256000       7312/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           489/65536         978/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1293596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13339/16777216 ( 0.1%) 
+entdata               [variable]       33010/393216   ( 8.4%) 
+LDR ambient table      632/65536        2528/262144   ( 1.0%) 
+HDR ambient table      632/65536        2528/262144   ( 1.0%) 
+LDR leaf ambient       287/65536        8036/1835008  ( 0.4%) 
+HDR leaf ambient       632/65536       17696/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1350     ( 0.1%) 
+pakfile               [variable]        1272/0        ( 0.0%) 
+physics               [variable]      758405/4194304  (18.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1299
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/pl_alaskaburn/nature/blendgroundtosnow001_wvt_patch
+Patching WVT material: maps/pl_alaskaburn/nature/blendrockgroundwallsnow_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (758405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 93 texinfos to 47
+Reduced 17 texdatas to 14 (467 bytes to 303)
+Writing C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\content\tf\AlaskaBurn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.prt
+ 215 portalclusters
+ 591 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.01%)
+Total clusters visible: 45585
+Average clusters visible: 212
+Building PAS...
+Average clusters audible: 215
+visdatasize:13339  compressed from 13760
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+567 faces
+3023480 square feet [435381152.00 square inches]
+39 Displacements
+107242 Square Feet [15442867.00 Square Inches]
+567 patches before subdivision
+17597 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 376890, max 182
+transfer lists:   2.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0078 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                 44/8192          528/98304    ( 0.5%) 
+brushsides             291/65536        2328/524288   ( 0.4%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               805/65536        9660/786432   ( 1.2%) 
+nodes                  618/65536       19776/2097152  ( 0.9%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos               39/0            6864/0        ( 0.0%) 
+disp_verts            3991/0           79820/0        ( 0.0%) 
+disp_tris             6528/0           13056/0        ( 0.0%) 
+disp_lmsamples      266812/0          266812/0        ( 0.0%) 
+faces                  567/65536       31752/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              193/65536       10808/3670016  ( 0.3%) 
+leaves                 632/65536       20224/2097152  ( 1.0%) 
+leaffaces              552/65536        1104/131072   ( 0.8%) 
+leafbrushes            368/65536         736/131072   ( 0.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3205/512000      12820/2048000  ( 0.6%) 
+edges                 1828/256000       7312/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           489/65536         978/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1293596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13339/16777216 ( 0.1%) 
+entdata               [variable]       33010/393216   ( 8.4%) 
+LDR ambient table      632/65536        2528/262144   ( 1.0%) 
+HDR ambient table      632/65536        2528/262144   ( 1.0%) 
+LDR leaf ambient       287/65536        8036/1835008  ( 0.4%) 
+HDR leaf ambient       632/65536       17696/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1350     ( 0.1%) 
+pakfile               [variable]        1272/0        ( 0.0%) 
+physics               [variable]      758405/4194304  (18.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1299
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/pl_alaskaburn/nature/blendgroundtosnow001_wvt_patch
+Patching WVT material: maps/pl_alaskaburn/nature/blendrockgroundwallsnow_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (758405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 93 texinfos to 47
+Reduced 17 texdatas to 14 (467 bytes to 303)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.prt
+ 215 portalclusters
+ 591 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.01%)
+Total clusters visible: 45462
+Average clusters visible: 211
+Building PAS...
+Average clusters audible: 215
+visdatasize:13336  compressed from 13760
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+567 faces
+3023480 square feet [435381152.00 square inches]
+39 Displacements
+107242 Square Feet [15442867.00 Square Inches]
+567 patches before subdivision
+17597 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 376890, max 182
+transfer lists:   2.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0076 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                 44/8192          528/98304    ( 0.5%) 
+brushsides             291/65536        2328/524288   ( 0.4%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               805/65536        9660/786432   ( 1.2%) 
+nodes                  618/65536       19776/2097152  ( 0.9%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos               39/0            6864/0        ( 0.0%) 
+disp_verts            3991/0           79820/0        ( 0.0%) 
+disp_tris             6528/0           13056/0        ( 0.0%) 
+disp_lmsamples      266812/0          266812/0        ( 0.0%) 
+faces                  567/65536       31752/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              193/65536       10808/3670016  ( 0.3%) 
+leaves                 632/65536       20224/2097152  ( 1.0%) 
+leaffaces              552/65536        1104/131072   ( 0.8%) 
+leafbrushes            368/65536         736/131072   ( 0.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3205/512000      12820/2048000  ( 0.6%) 
+edges                 1828/256000       7312/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           489/65536         978/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1293596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13336/16777216 ( 0.1%) 
+entdata               [variable]       33010/393216   ( 8.4%) 
+LDR ambient table      632/65536        2528/262144   ( 1.0%) 
+HDR ambient table      632/65536        2528/262144   ( 1.0%) 
+LDR leaf ambient       287/65536        8036/1835008  ( 0.4%) 
+HDR leaf ambient       632/65536       17696/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1350     ( 0.1%) 
+pakfile               [variable]        1272/0        ( 0.0%) 
+physics               [variable]      758405/4194304  (18.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1299
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/pl_alaskaburn/nature/blendgroundtosnow001_wvt_patch
+Patching WVT material: maps/pl_alaskaburn/nature/blendrockgroundwallsnow_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (758405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 93 texinfos to 47
+Reduced 17 texdatas to 14 (467 bytes to 303)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.prt
+ 215 portalclusters
+ 591 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.01%)
+Total clusters visible: 45462
+Average clusters visible: 211
+Building PAS...
+Average clusters audible: 215
+visdatasize:13336  compressed from 13760
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+567 faces
+3023480 square feet [435381152.00 square inches]
+39 Displacements
+107242 Square Feet [15442867.00 Square Inches]
+567 patches before subdivision
+17597 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 376890, max 182
+transfer lists:   2.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0076 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                 44/8192          528/98304    ( 0.5%) 
+brushsides             291/65536        2328/524288   ( 0.4%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               805/65536        9660/786432   ( 1.2%) 
+nodes                  618/65536       19776/2097152  ( 0.9%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos               39/0            6864/0        ( 0.0%) 
+disp_verts            3991/0           79820/0        ( 0.0%) 
+disp_tris             6528/0           13056/0        ( 0.0%) 
+disp_lmsamples      266812/0          266812/0        ( 0.0%) 
+faces                  567/65536       31752/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              193/65536       10808/3670016  ( 0.3%) 
+leaves                 632/65536       20224/2097152  ( 1.0%) 
+leaffaces              552/65536        1104/131072   ( 0.8%) 
+leafbrushes            368/65536         736/131072   ( 0.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3205/512000      12820/2048000  ( 0.6%) 
+edges                 1828/256000       7312/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           489/65536         978/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1293596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13336/16777216 ( 0.1%) 
+entdata               [variable]       33010/393216   ( 8.4%) 
+LDR ambient table      632/65536        2528/262144   ( 1.0%) 
+HDR ambient table      632/65536        2528/262144   ( 1.0%) 
+LDR leaf ambient       287/65536        8036/1835008  ( 0.4%) 
+HDR leaf ambient       632/65536       17696/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1350     ( 0.1%) 
+pakfile               [variable]        1272/0        ( 0.0%) 
+physics               [variable]      758405/4194304  (18.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1299
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/pl_alaskaburn/nature/blendgroundtosnow001_wvt_patch
+Patching WVT material: maps/pl_alaskaburn/nature/blendrockgroundwallsnow_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (758405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 93 texinfos to 47
+Reduced 17 texdatas to 14 (467 bytes to 303)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.prt
+ 215 portalclusters
+ 591 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.01%)
+Total clusters visible: 45462
+Average clusters visible: 211
+Building PAS...
+Average clusters audible: 215
+visdatasize:13336  compressed from 13760
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+567 faces
+3023480 square feet [435381152.00 square inches]
+39 Displacements
+107242 Square Feet [15442867.00 Square Inches]
+567 patches before subdivision
+17597 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 376890, max 182
+transfer lists:   2.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0076 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                 44/8192          528/98304    ( 0.5%) 
+brushsides             291/65536        2328/524288   ( 0.4%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               805/65536        9660/786432   ( 1.2%) 
+nodes                  618/65536       19776/2097152  ( 0.9%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos               39/0            6864/0        ( 0.0%) 
+disp_verts            3991/0           79820/0        ( 0.0%) 
+disp_tris             6528/0           13056/0        ( 0.0%) 
+disp_lmsamples      266812/0          266812/0        ( 0.0%) 
+faces                  567/65536       31752/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              193/65536       10808/3670016  ( 0.3%) 
+leaves                 632/65536       20224/2097152  ( 1.0%) 
+leaffaces              552/65536        1104/131072   ( 0.8%) 
+leafbrushes            368/65536         736/131072   ( 0.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3205/512000      12820/2048000  ( 0.6%) 
+edges                 1828/256000       7312/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           489/65536         978/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1293596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13336/16777216 ( 0.1%) 
+entdata               [variable]       32612/393216   ( 8.3%) 
+LDR ambient table      632/65536        2528/262144   ( 1.0%) 
+HDR ambient table      632/65536        2528/262144   ( 1.0%) 
+LDR leaf ambient       287/65536        8036/1835008  ( 0.4%) 
+HDR leaf ambient       632/65536       17696/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1350     ( 0.1%) 
+pakfile               [variable]        1272/0        ( 0.0%) 
+physics               [variable]      758405/4194304  (18.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1299
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\content\tf\alaskaburn\pl_alaskaburn.bsp
+4 seconds elapsed
